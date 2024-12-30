@@ -1,4 +1,4 @@
-# 📖 책 취향 공유 서비스앱 README
+# 내 취향의 팝업스토어 전시회 찾고 구매까지! HypePop
 
 ![readme_mockup2](https://user-images.githubusercontent.com/112460466/210706312-6a44b60d-a42e-4210-b334-9e5983f70fb3.png)
 
