@@ -35,12 +35,12 @@
 
 ## 1. 개발 환경
 
-- Front : HTML, React, styled-components, Recoil
-- Back-end : 제공된 API 활용
-- 버전 및 이슈관리 : Github, Github Issues, Github Project
-- 협업 툴 : Discord, Notion, Github Wiki
-- 서비스 배포 환경 : Netlify
-- 디자인 : [Figma](https://www.figma.com/file/fAisC2pEKzxTOzet9CfqML/README(oh-my-code)?node-id=39%3A1814)
+- Front : HTML5, CSS3, JS ES6
+- Back-end : Spring 3.9.11, WEB SOCKET, Apache Tomcat 9.0
+- DB / API / GIT : ORACLE, Naver Map, Notion, ERD Cloud
+- 버전 및 이슈관리 : Github
+- 협업 툴 : Figma
+- 디자인 : [Figma](https://www.figma.com/design/i8rPbGQSTtVPKmuwHurX0R/kacang?node-id=171-15&t=oSf2XtciC0DIgeVE-1)
 - [커밋 컨벤션](https://github.com/likelion-project-README/README/wiki/%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98)
 - [코드 컨벤션](https://github.com/likelion-project-README/README/wiki/%EC%BD%94%EB%93%9C-%EC%BB%A8%EB%B2%A4%EC%85%98)
 - [스프라이트](https://github.com/likelion-project-README/README/wiki/%EC%8A%A4%ED%94%84%EB%9D%BC%EC%9D%B4%ED%8A%B8)
