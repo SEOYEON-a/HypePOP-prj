@@ -6,10 +6,18 @@
 
 ## 프로젝트 소개
 
-- README는 책을 좋아하는 사람들이 자신의 책 취향을 공유하고, 다 읽은 책을 판매할 수 있는 SNS입니다.
-- 개인의 프로필 페이지에 좋아하는 구절 등 책에 대한 정보를 작성하고 판매하고 싶은 책을 등록할 수 있습니다.
-- 검색을 통해 책 취향이 비슷한 다른 유저들의 피드를 구경할 수 있습니다.
-- 다양한 유저들을 팔로우하며 마음에 드는 게시글에 좋아요를 누르거나 댓글을 작성할 수 있습니다.
+- Hyep POP은 팝업스토어와 전시회를 탐색하고 파티원을 모집하여 실시간 채팅을 할 수 있으며 구매까지 이어지는 내 주변 행사 찾기 사이트입니다.
+- 관리자 페이지에서 팝업스토어, 굿즈, 전시회 등록, 수정, 삭제가 가능하고 회원 정보 수정과 문의 리스트를 볼 수 있습니다.
+- 팝업스토어 메인페이지에서 인기있는 팝업스토어와 관심사별 팝업스토어를 볼 수 있습니다.
+- 굿즈 메인페이지에서 인기있는 굿즈와 관심사별 굿즈를 볼 수 있습니다.
+- 전시회 메인페이지에서 다양한 전시회를 볼 수 있습니다.
+- 캘린더로 한달마다 열리는 팝업스토어와 전시회 일정을 볼 수 있습니다.
+- 파티 구인 게시판에서 파티원 모집 게시글을 작성할 수 있으며 클릭 시 실시간으로 채팅할 수 있습니다.
+- 팝업스토어 상세 페이지에서 해당 팝업스토어의 상세 정보 확인과 후기 작성 및 수정, 삭제, 상품 리스트를 볼 수 있습니다.
+- 굿즈 상세 페이지에서 해당 굿즈와 관련된 팝업스토어로 이동할 수 있으며 상세 정보 확인과 후기 작성 및 수정, 삭제, 장바구니 담기, 결제 페이지로 이동할 수 있습니다.
+- 전시회 상세페이지에서 해당 전시회 상세 정보를 확인할 수 있으며 후기를 작성할 수 있습니다.
+- 검색을 통해 마음에 드는 팝업스토어와 굿즈, 전시회를 검색할 수 있습니다.
+- 마이페이지에서 내가 쓴 후기, 찜 목록 확인, 결제 목록을 확인할 수 있습니다.
 
 <br>
 
@@ -19,7 +27,7 @@
 
 | **이서연** | **김민제** | **양희지** | **지창언** |
 | :------: |  :------: | :------: | :------: |
-| ![mimoticon_lsy](https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e) height=150 width=150 | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
+| <img src="https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e" height=150 width=150> <br/> | [<img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> @Cheorizzang](https://github.com/Cheorizzang) | [<img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> @heejiyang](https://github.com/heejiyang) | [<img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> @journey-ji](https://github.com/journey-ji) |
 
 </div>
 
