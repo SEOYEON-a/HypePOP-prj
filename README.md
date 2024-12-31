@@ -25,9 +25,9 @@
 
 <div align="center">
 
-| **이서연** | **김민제** | **양희지** | **지창언** |
-| :------: |  :------: | :------: | :------: |
-| [<img src="https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e" height=150 width=150> <br/> @SEOYEON-a](https://github.com/SEOYEON-a) | <img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> |
+| **이서연** | **김현재** | **김요셉** | **김윤** | **김진환** |
+| :------: |  :------: | :------: | :------: | :------: |
+| [<img src="https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e" height=150 width=150> <br/> @SEOYEON-a](https://github.com/SEOYEON-a) | <img src="https://avatars.githubusercontent.com/u/112460466?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/112460506?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/>
 
 </div>
 
