@@ -426,7 +426,7 @@
 
 | 팝업스토어 삭제 |
 |----------|
-|![admin-popup-edit](https://github.com/user-attachments/assets/9841b124-6f7f-4ae6-a814-ce0781665d47)|
+|![admin-popup-delete](https://github.com/user-attachments/assets/57ef7dcc-6659-4190-8288-f7732941d24d)|
 
 <br>
 
