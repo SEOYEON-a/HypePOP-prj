@@ -315,10 +315,19 @@
 
 ### [전시회 검색하기]
 - 전시회 관리하기 클릭 후 검색창에 전시회 이름을 검색하면 해당 검색어와 맞는 전시회가 나옵니다.
-- 한 페이지에 14개가 출력되고 14개가 넘어가면 페이징 처리가 되어 넘어갑니다.
 - 마우스 오버 시 분홍색으로 바뀝니다.
 
 | 전시회 검색하기 |
+|----------|
+|![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
+
+<br>
+
+### [팝업스토어 등록하기]
+- 팝업스토어 등록하기를 클릭하면 등록 페이지가 나옵니다.
+- 이미지 등록하기를 클릭하면 이미지가 나오고 카테고리를 선택한 후 텍스트 정보 입력한 뒤에 등록하기를 클릭하면 등록이 됩니다.
+
+| 팝업스토어 등록하기 |
 |----------|
 |![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
 
@@ -330,7 +339,7 @@
 - 관리자 메인 페이지 클릭 시 메인페이지로 돌아갑니다.
 - 수정완료 클릭 시 업데이트 됩니다.
 
-| 회원 리스트 출력 |
+| 회원 정보 수정 |
 |----------|
 |![admin-userbacktoList-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/12450e39-f0c4-48a9-9d8e-9e821c5219fc)|
 |![admin-usereditList](https://github.com/user-attachments/assets/0de8ff9f-ae37-4bce-bcd2-0f51c56e04f3)|
