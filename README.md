@@ -296,8 +296,6 @@
 
 ## [검색 기능]
 
-<br>
-
 ### [팝업스토어 검색하기]
 - 팝업스토어 관리하기 클릭 후 검색창에 팝업스토어 이름을 검색하면 해당 검색어와 맞는 팝업스토어가 나옵니다.
 - 한 페이지에 15개가 출력되고 15개가 넘어가면 페이징 처리가 되어 넘어갑니다.
@@ -328,6 +326,8 @@
 |![adminmainpage-exhibitListSearch](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
 
 <br>
+
+## [등록 기능]
 
 ### [팝업스토어 등록하기]
 - 팝업스토어 등록하기를 클릭하면 팝업스토어 등록 페이지가 나옵니다.
@@ -364,6 +364,8 @@
 |![admin-exhibitregister-ezgif com-speed](https://github.com/user-attachments/assets/62cbda26-4c8c-4f7e-b1ad-e8db53fa6d9b)|
 
 <br>
+
+## [수정 기능]
 
 ### [회원 정보 수정]
 - 회원 정보를 클릭하면 수정 페이지로 넘어갑니다.
