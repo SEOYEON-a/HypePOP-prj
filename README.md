@@ -251,13 +251,23 @@
 
 ### [굿즈 리스트 출력]
 - 쇼핑몰 관리하기를 클릭하면 현재 등록된 굿즈 리스트가 출력됩니다.
-- 한 페이지에 15개가 출력되고 15개가 넘어가면 페이징 처리가 되어 넘어갑니다.
+- 한 페이지에 32개가 출력되고 32개가 넘어가면 페이징 처리가 되어 넘어갑니다.
 - 마우스 오버 시 분홍색으로 바뀝니다.
 
 | 굿즈 리스트 출력 |
 |----------|
 |![adminmainpage-goods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
 
+<br>
+
+### [전시회 리스트 출력]
+- 전시회 관리하기를 클릭하면 현재 등록된 전시회 리스트가 출력됩니다.
+- 한 페이지에 32개가 출력되고 32개가 넘어가면 페이징 처리가 되어 넘어갑니다.
+- 마우스 오버 시 분홍색으로 바뀝니다.
+
+| 전시회 리스트 출력 |
+|----------|
+|![adminmainpage-goods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
 
 <br>
 
