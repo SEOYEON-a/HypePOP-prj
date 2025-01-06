@@ -245,7 +245,7 @@
 
 | 팝업스토어 리스트 출력 |
 |----------|
-|![adminmainpage-popup-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
+|![adminmainpage-popupList](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
 
 <br>
 
@@ -256,7 +256,7 @@
 
 | 굿즈 리스트 출력 |
 |----------|
-|![adminmainpage-goods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
+|![adminmainpage-goodsList](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
 
 <br>
 
@@ -267,7 +267,7 @@
 
 | 전시회 리스트 출력 |
 |----------|
-|![adminmainpage-goods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
+|![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
 
 <br>
 
