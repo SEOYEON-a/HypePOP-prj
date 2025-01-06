@@ -367,37 +367,37 @@
 
 ## [수정 기능]
 
-### [팝업스토어 정보 수정]
+### [팝업스토어 수정]
 - 팝업스토어 정보를 클릭하면 팝업스토어 정보 수정 페이지로 넘어갑니다.
 - 취소 및 리스트로 돌아가기 클릭 시 리스트로 돌아갑니다.
 - 메인 페이지 클릭 시 메인페이지로 돌아갑니다.
 - 수정완료 클릭 시 업데이트 됩니다.
 
-| 팝업스토어 정보 수정 |
+| 팝업스토어 수정 |
 |----------|
 |![admin-popup-edit](https://github.com/user-attachments/assets/9841b124-6f7f-4ae6-a814-ce0781665d47)|
 
 <br>
 
-### [굿즈 정보 수정]
+### [굿즈 수정]
 - 굿즈 정보를 클릭하면 굿즈 정보 수정 페이지로 넘어갑니다.
 - 취소 및 리스트로 돌아가기 클릭 시 리스트로 돌아갑니다.
 - 메인 페이지 클릭 시 메인페이지로 돌아갑니다.
 - 수정완료 클릭 시 업데이트 됩니다.
 
-| 굿즈 정보 수정 |
+| 굿즈 수정 |
 |----------|
 |![admin-popup-edit](https://github.com/user-attachments/assets/9841b124-6f7f-4ae6-a814-ce0781665d47)|
 
 <br>
 
-### [회원 정보 수정]
+### [회원 수정]
 - 회원 정보를 클릭하면 회원 정보 수정 페이지로 넘어갑니다.
 - 취소 및 리스트로 돌아가기 클릭 시 리스트로 돌아갑니다.
 - 관리자 메인 페이지 클릭 시 메인페이지로 돌아갑니다.
 - 수정완료 클릭 시 업데이트 됩니다.
 
-| 회원 정보 수정 |
+| 회원 수정 |
 |----------|
 |![admin-userbacktoList-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/12450e39-f0c4-48a9-9d8e-9e821c5219fc)|
 |![admin-usereditList](https://github.com/user-attachments/assets/0de8ff9f-ae37-4bce-bcd2-0f51c56e04f3)|
