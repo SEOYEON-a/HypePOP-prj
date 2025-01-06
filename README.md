@@ -278,7 +278,7 @@
 
 | 회원 리스트 출력 |
 |----------|
-|![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
+|![adminmainpage-userList](https://github.com/user-attachments/assets/9c6e4bd2-6da0-47df-99d4-c56d65fbdf31)|
 
 <br>
 
