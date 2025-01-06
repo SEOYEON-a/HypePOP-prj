@@ -246,6 +246,7 @@
 | 회원가입 |
 |----------|
 |![join](https://user-images.githubusercontent.com/112460466/210173571-490f5beb-5791-4a4a-8c5e-510cdcb5f1fe.gif)|
+|![adminmainpage-popupgoods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
 
 <br>
 
