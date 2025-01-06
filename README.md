@@ -234,6 +234,7 @@
 
 | 초기화면 |
 |----------|
+|![admin main page](https://github.com/user-attachments/assets/d9d74047-cc41-4ccc-9ca5-fa96597613eb)|
 |![splash](https://user-images.githubusercontent.com/112460466/210172920-aef402ed-5aef-4d4a-94b9-2b7147fd8389.gif)|
 
 <br>
