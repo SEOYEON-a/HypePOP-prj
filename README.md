@@ -28,7 +28,7 @@
 
 | **이서연** | **김현재** | **김요셉** | **김윤** | **김진환** |
 | :------: |  :------: | :------: | :------: | :------: |
-| [<img src="https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e" height=150 width=150> <br/> @SEOYEON-a](https://github.com/SEOYEON-a) | <img src="https://github.com/user-attachments/assets/06596dc2-480d-437e-b04c-125370de8023" height=130 width=130> <br/> | <img src="https://avatars.githubusercontent.com/u/112460506?v=4](https://github.com/user-attachments/assets/b31b4021-6f71-408a-b7d7-555c67a7e652" height=130 width=130> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/>
+| [<img src="https://github.com/user-attachments/assets/1348490d-a8e3-486c-9d7a-9ac7b3fd684e" height=150 width=150> <br/> @SEOYEON-a](https://github.com/SEOYEON-a) | <img src="https://github.com/user-attachments/assets/4ba22779-886f-400c-b65f-a83f3becaab2" height=130 width=130> <br/> | <img src="https://avatars.githubusercontent.com/u/112460506?v=4](https://github.com/user-attachments/assets/b31b4021-6f71-408a-b7d7-555c67a7e652" height=130 width=130> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/> | <img src="https://avatars.githubusercontent.com/u/76766459?v=4" height=150 width=150> <br/>
 
 </div>
 
