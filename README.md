@@ -245,7 +245,7 @@
 
 | 팝업스토어 리스트 출력 |
 |----------|
-|![adminmainpage-popupgoods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
+|![adminmainpage-popup-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
 
 <br>
 
@@ -256,7 +256,8 @@
 
 | 굿즈 리스트 출력 |
 |----------|
-|![adminmainpage-popupgoods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
+|![adminmainpage-goods-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
+
 
 <br>
 
