@@ -299,7 +299,7 @@
 
 | 팝업스토어 검색하기 |
 |----------|
-|![adminmainpage-popupList](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
+|![adminmainpage-popupListSearch](https://github.com/user-attachments/assets/ce366f91-3c1e-4b64-b929-024f9c1e4f24)|
 
 <br>
 
@@ -309,7 +309,7 @@
 
 | 굿즈 검색하기 |
 |----------|
-|![adminmainpage-goodsList](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
+|![adminmainpage-goodsListSearch](https://github.com/user-attachments/assets/258e9984-5c00-4374-a670-9f97c8dc23b9)|
 
 <br>
 
@@ -319,7 +319,7 @@
 
 | 전시회 검색하기 |
 |----------|
-|![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
+|![adminmainpage-exhibitListSearch](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
 
 <br>
 
@@ -329,7 +329,7 @@
 
 | 팝업스토어 등록하기 |
 |----------|
-|![adminmainpage-exhibitList](https://github.com/user-attachments/assets/af507c2b-dd86-4959-ab2e-78a92d0539e3)|
+|![admin-popupRegister](https://github.com/user-attachments/assets/ede0728f-078f-4c3f-9a57-3f4d9b078ed0)|
 
 <br>
 
