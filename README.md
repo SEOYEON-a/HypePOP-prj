@@ -284,10 +284,11 @@
 ### [문의 리스트 출력]
 - 문의 리스트 확인을 클릭하면 현재 등록된 문의 리스트가 출력됩니다.
 - 문의 유형과 답변 여부에 따라 필터링된 리스트가 출력됩니다.
+- 관리자 메인 페이지를 클릭하면 메인페이지로 돌아갑니다.
 
 | 문의 리스트 출력 |
 |----------|
-|![adminmainpage-userList](https://github.com/user-attachments/assets/bcbf09ff-e4b7-4371-be5a-cc8f4d57487b)|
+|![adminmainpage-adminaskList](https://github.com/user-attachments/assets/fb60ff70-149a-4d18-998b-64a6303a0234)|
 
 <br>
 
