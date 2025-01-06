@@ -387,7 +387,19 @@
 
 | 굿즈 수정 |
 |----------|
-|![admin-popup-edit](https://github.com/user-attachments/assets/9841b124-6f7f-4ae6-a814-ce0781665d47)|
+|![admin-goods-edit-](https://github.com/user-attachments/assets/9221d9cc-aba1-4a42-9e94-d29d1a207bae)|
+
+<br>
+
+### [전시회 수정]
+- 전시회 정보를 클릭하면 전시회 정보 수정 페이지로 넘어갑니다.
+- 취소 및 리스트로 돌아가기 클릭 시 리스트로 돌아갑니다.
+- 메인 페이지 클릭 시 메인페이지로 돌아갑니다.
+- 수정완료 클릭 시 업데이트 됩니다.
+
+| 전시회 수정 |
+|----------|
+|![admin-goods-edit-](https://github.com/user-attachments/assets/9221d9cc-aba1-4a42-9e94-d29d1a207bae)|
 
 <br>
 
