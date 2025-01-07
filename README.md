@@ -344,9 +344,9 @@
 
 - [COMMIT 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_COMMIT)
 
-- [CSS 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_CSS-%EC%98%A4%EB%A5%98)
+- [CSS 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_CSS)
   
-- [Encoding 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Encoding-%EC%98%A4%EB%A5%98T)
+- [Encoding 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Encoding)
   
 - [Mapping 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Mapping)
   
@@ -354,13 +354,13 @@
   
 - [ReflectionException 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_ReflectionException)
 
-- [Button Event 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EB%B2%84%ED%8A%BC-%EB%8F%99%EC%9E%91-%EC%98%A4%EB%A5%98)
+- [Button Event 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EB%B2%84%ED%8A%BC-%EB%8F%99%EC%9E%91)
 
-- [DB 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EC%9C%A0%EC%A0%80-%EB%B2%88%ED%98%B8-%EC%97%90%EB%9F%AC)
+- [DB 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EC%9C%A0%EC%A0%80-%EB%B2%88%ED%98%B8)
 
 - [DATA 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EC%9C%A0%EC%A0%80-%EC%A0%95%EB%B3%B4)
 
-- [Filtering 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%ED%95%84%ED%84%B0%EB%A7%81-%EC%98%A4%EB%A5%98)
+- [Filtering 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%ED%95%84%ED%84%B0%EB%A7%81)
 
 <br>
 
