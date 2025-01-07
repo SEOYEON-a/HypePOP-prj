@@ -36,7 +36,7 @@
 ## 1. 개발 환경
 
 - Front : HTML5, CSS3, JS ES6
-- Back-end : Spring 3.9.11, WEB SOCKET, Apache Tomcat 9.0
+- Back-end : Spring Legacy 3.9.11, WEB SOCKET, Apache Tomcat 9.0
 - DB / API / GIT : ORACLE XE 11.2, Naver Map, Notion, ERD Cloud
 - 협업 툴 : Figma
 - 버전 및 이슈관리 : Github
