@@ -3,7 +3,6 @@
 ![readme_mockup2](https://user-images.githubusercontent.com/112460466/210706312-6a44b60d-a42e-4210-b334-9e5983f70fb3.png)
 
 
-
 ## 프로젝트 소개
 
 - Hyep POP은 팝업스토어와 전시회를 탐색하고 파티원을 모집하여 실시간 채팅을 할 수 있으며 구매까지 이어지는 내 주변 행사 찾기 사이트입니다.
@@ -38,122 +37,22 @@
 
 - Front : HTML5, CSS3, JS ES6
 - Back-end : Spring 3.9.11, WEB SOCKET, Apache Tomcat 9.0
-- DB / API / GIT : ORACLE, Naver Map, Notion, ERD Cloud
+- DB / API / GIT : ORACLE XE 11.2, Naver Map, Notion, ERD Cloud
 - 협업 툴 : Figma
 - 버전 및 이슈관리 : Github
 - 디자인 : [Figma](https://www.figma.com/design/i8rPbGQSTtVPKmuwHurX0R/kacang?node-id=171-15&t=oSf2XtciC0DIgeVE-1)
 <br>
 
-## 2. 채택한 개발 기술과 브랜치 전략
+## 2. 프로젝트 규칙
 
-### React, styled-component
+### 규칙
 
-- React
-    - 컴포넌트화를 통해 추후 유지보수와 재사용성을 고려했습니다.
-    - 유저 배너, 상단과 하단 배너 등 중복되어 사용되는 부분이 많아 컴포넌트화를 통해 리소스 절약이 가능했습니다.
-- styled-component
-    - props를 이용한 조건부 스타일링을 활용하여 상황에 알맞은 스타일을 적용시킬 수 있었습니다.
-    - 빌드될 때 고유한 클래스 이름이 부여되어 네이밍 컨벤션을 정하는 비용을 절약할 수 있었습니다.
-    - S dot naming을 통해 일반 컴포넌트와 스타일드 컴포넌트를 쉽게 구별하도록 했습니다.
-    
-### Recoil
-
-- 최상위 컴포넌트를 만들어 props로 유저 정보를 내려주는 방식의 경우 불필요한 props 전달이 발생합니다. 따라서, 필요한 컴포넌트 내부에서만 상태 값을 가져다 사용하기 위해 상태 관리 라이브러리를 사용하기로 했습니다.
-- Redux가 아닌 Recoil을 채택한 이유
-    - Recoil은 React만을 위한 라이브러리로, 사용법도 기존의 useState 훅을 사용하는 방식과 유사해 학습비용을 낮출 수 있었습니다.
-    - 또한 Redux보다 훨씬 적은 코드라인으로 작동 가능하다는 장점이 있었습니다.
-- 로그인과 최초 프로필 설정 시 유저 정보를 atom에 저장하여 필요한 컴포넌트에서 구독하는 방식으로 사용했습니다.
-
-### eslint, prettier
-
-- 정해진 규칙에 따라 자동적으로 코드 스타일을 정리해 코드의 일관성을 유지하고자 했습니다.
-- 코드 품질 관리는 eslint에, 코드 포맷팅은 prettier에 일임해 사용했습니다.
-- airbnb의 코딩 컨벤션을 참고해 사용했고, 예외 규칙은 팀원들과 협의했습니다.
-- 협업 시 매번 컨벤션을 신경 쓸 필요 없이 빠르게 개발하는 데에 목적을 두었습니다.
-
-### 브랜치 전략
-
-- Git-flow 전략을 기반으로 main, develop 브랜치와 feature 보조 브랜치를 운용했습니다.
-- main, develop, Feat 브랜치로 나누어 개발을 하였습니다.
-    - **main** 브랜치는 배포 단계에서만 사용하는 브랜치입니다.
-    - **develop** 브랜치는 개발 단계에서 git-flow의 master 역할을 하는 브랜치입니다.
-    - **Feat** 브랜치는 기능 단위로 독립적인 개발 환경을 위하여 사용하고 merge 후 각 브랜치를 삭제해주었습니다.
-
+- 취합은 매주 금요일날 진행하며, 일주일에 한 번씩 회의를 진행하여 현재 진행 상황을 공유했습니다.
+- 팀장이 GitHub로 취합을 하면, 팀원들이 clone을 받아서 적용하는 방식으로 진행하였습니다.
+- 
 <br>
 
-## 3. 프로젝트 구조
-
-```
-├── README.md
-├── .eslintrc.js
-├── .gitignore
-├── .prettierrc.json
-├── package-lock.json
-├── package.json
-│
-├── public
-│    └── index.html
-└── src
-     ├── App.jsx
-     ├── index.jsx
-     ├── api
-     │     └── mandarinAPI.js
-     ├── asset
-     │     ├── fonts
-     │     ├── css_sprites.png
-     │     ├── logo-404.svg
-     │     └── logo-home.svg
-     │          .
-     │          .
-     │          .
-     ├── atoms
-     │     ├── LoginData.js
-     │     └── LoginState.js
-     ├── common
-     │     ├── alert
-     │     │     ├── Alert.jsx
-     │     │     └── Alert.Style.jsx
-     │     ├── button
-     │     ├── comment
-     │     ├── inputBox
-     │     ├── post
-     │     ├── postModal
-     │     ├── product
-     │     ├── tabMenu
-     │     ├── topBanner
-     │     └── userBanner
-     ├── pages
-     │     ├── addProduct
-     │     │     ├── AddProduct.jsx
-     │     │     └── AddProduct.Style.jsx
-     │     ├── chatList
-     │     ├── chatRoom
-     │     ├── emailLogin
-     │     ├── followerList
-     │     ├── followingList
-     │     ├── home
-     │     ├── join
-     │     ├── page404
-     │     ├── postDetail
-     │     ├── postEdit
-     │     ├── postUpload
-     │     ├── productEdit
-     │     ├── profile
-     │     ├── profileEdit
-     │     ├── profileSetting
-     │     ├── search
-     │     ├── snsLogin
-     │     └── splash
-     ├── routes
-     │     ├── privateRoutes.jsx
-     │     └── privateRoutesRev.jsx  
-     └── styles
-           └── Globalstyled.jsx
-```
-
-<br>
-
-## 4. 역할 분담
+## 3. 역할 분담
 
 ### 🍊이서연
 
@@ -200,7 +99,7 @@
     
 <br>
 
-## 5. 개발 기간 및 작업 관리
+## 4. 개발 기간 및 작업 관리
 
 ### 개발 기간
 
@@ -218,7 +117,7 @@
 
 <br>
 
-## 6. 페이지별 기능
+## 5. 페이지별 기능
 
 ### [초기화면]
 - 관리자로 로그인했을 때 뜨는 메인페이지이며 첫화면 입니다.
@@ -446,40 +345,68 @@
 
 <br>
 
-## 7. 트러블 슈팅
+## 6. 트러블 슈팅
 
 - [CamelCase 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Camel-Case)
 
-- [COMMIT 이슈](https://github.com/SEOYEON-a/HypePOP-prj.wiki.git)
+- [COMMIT 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_COMMIT)
+
+- [CSS 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_CSS-%EC%98%A4%EB%A5%98)
+  
+- [Encoding 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Encoding-%EC%98%A4%EB%A5%98T)
+  
+- [Mapping 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Mapping)
+  
+- [Paging 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_Paging)
+  
+- [ReflectionException 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_ReflectionException)
+
+- [Button Event 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EB%B2%84%ED%8A%BC-%EB%8F%99%EC%9E%91-%EC%98%A4%EB%A5%98)
+
+- [DB 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EC%9C%A0%EC%A0%80-%EB%B2%88%ED%98%B8-%EC%97%90%EB%9F%AC)
+
+- [DATA 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%EC%9C%A0%EC%A0%80-%EC%A0%95%EB%B3%B4)
+
+- [Filtering 이슈](https://github.com/SEOYEON-a/HypePOP-prj/wiki/%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85_%ED%95%84%ED%84%B0%EB%A7%81-%EC%98%A4%EB%A5%98)
 
 <br>
 
-## 9. 개선 목표
+## 7. 개선 목표
 
-- API 모듈화 : API를 불러오는 코드의 반복이 많아 모듈화할 예정
-- lighthouse Performance 증진
-    - 모든 페이지에서 특히 Best Practices & SEO 점수는 90~100으로 우수
-    - Performance 점수가 대체적으로 미흡한 문제
-    
-    ![KakaoTalk_Photo_2023-01-04-16-55-30](https://user-images.githubusercontent.com/112460466/210591134-09bf8efd-3c34-4b99-a3d7-895ca99e1457.png)
-    
-- **23-01-17 성능 개선 내용**
-    
-    ![성능개선 후](https://user-images.githubusercontent.com/106502312/212872369-7ceeb2cf-d551-41d2-bfb0-01e35e9903fe.png)
-    
-    - 이미지 최적화
-        - `<img>` 요소에 `width` , `height` 속성값을 명시해 불필요한 Reflow를 방지했습니다.
-        - browser-image-compression 라이브러리를 사용해 유저가 업로드하는 이미지를 압축했습니다.
-        - Intersection Observer API를 사용해 Lazy Loading 기법을 적용하여 홈 피드의 게시글 이미지가 viewport 내에 들어오는 순간 로딩되도록 변경했습니다.
-    - 웹폰트 최적화
-        - WOFF2 포맷을 추가하고 가장 우선적으로 적용되도록 선언했습니다.
-        - 서브셋 폰트로 교체해 용량을 줄였습니다.
-    
+- API : 다양한 API를 사용해보지 않아서 API 기능의 다양성 필요
+- CSS 보완 : CSS의 미흡한 점이 많아서 보완 필요
+- 문서 작업 : 시간 문제로 클래스 정의서를 작성하지 못하여서 패키지 정의서로 대체
+
 <br>
 
-## 10. 프로젝트 후기
+## 8. 프로젝트 후기
 
 ### 이서연
 
-깃헙을 통한 협업에 익숙해지는 것, 서로 감정 상하지 않고 무사히 마무리하는 것이 1차적인 목표였어서 항상 이 부분을 명심하면서 작업했습니다.
-각자 페이지를 작업하고 합치는 과정에서 마주친 버그들이 몇 있었는데, 시간에 쫓기느라 해결하기에 급급해서 제대로 트러블슈팅 과정을 기록하지 못한 게 살짝 아쉬운 부분으로 남습니다. 그래도 2022년 한 해 동안 가장 치열하게 살았던 한 달인 것 같습니다. 조원들 모두에게 고생했다고 전하고 싶습니다🧡
+처음 해보는 팀 프로젝트여서 걱정이 많았습니다. 중간에 insert 기능 구현 기간에 지속적인 에러 발생으로 인해 한 주가 
+밀렸지만 끝까지 기능 구현을 성공적으로 마치고 나서 뿌듯함이 제일 컸고 도와주신 팀원 분들이 계셔서 감사했습니다. 이번 프로젝트를 통해 CRUD를 잘 이해할 수 있었던 좋은 기회가 된 것 같아 뿌듯했습니다. 
+실제 프로젝트를 진행해보니 웹 사이트 하나를 만들 때 세부적인 기능들이 매우 많이 들어간다는 것을 알게 되었고 까다로워 보이지 않았던 부분도 실제로 구현해보니 신경 쓸 게 많다는 것을 알게 되었던 시간이었습니다.
+
+### 김현재
+
+아무래도 첫 프로젝트이다 보니 생각보다 꽤 어려운 점이 많았던 것 같습니다. 배운 것을 이것도 활용해보고 저것도 
+활용해보다 보면 어느새 코드들이 여러 방식으로 섞여 있게 되기도 했었고, 프로젝트를 완성시키고 보니 성에 차지 않는 부분도 많이 보여 속이 상하기도 했습니다. 
+하지만 처음 사용해보는 지도 API를 사용했을 때, 풀리지 않던 코드가 풀렸을 때, 머릿속으로 상상하던 기능을 내가 직접 만들었을 때, 이 모든 것을 상쇄하고도 남을 행복감을 얻었습니다. 
+이번 프로젝트를 하며 고생도 많이 하고 즐겁기도 했지만, 제가 얻은 가장 큰 수확은 팀장으로서 역할을 하며 알게된 앞으로 하게 될 여러 프로젝트에서 올바른 방향으로 나아갈 수 있는 방향성이었던 것 같습니다. 
+
+### 김요셉
+
+기능들 하나하나 만드는게 너무 재미있었습니다. 혼자 만들 때는 몰랐는데 팀 프로젝트로 진행하면서 다 함께 만드니까 합치는 과정에서 많은 수정을 해야해서 팀원분들 모두 고생하신 것 같다고 생각합니다. 
+개발을 원활히 하기 위해선 개발을 시작하기 전 여러 문서작업을 통해 밑그림을 최대한 완벽하게 그리는것이 좋다는 생각을 하게 되었습니다. 
+ 
+### 김윤
+
+설계와 역할 분담의 중요성을 깨달았고, 잘 짜인 계획이 프로젝트를 원활하게 이끌어간다는 것을 느꼈습니다.
+오류 대처 능력도 향상되어, 문제 발생 시 두려움 없이 해결할 자신감이 생겼으며 오류가 오히려 해결의 기회를 준다는 점에서 
+긍정적으로 받아들일 수 있었던 기회였습니다. 
+
+### 김진환
+
+동기로 페이지 데이터를 가져와서 사용하는 경우 유지 보수를 할 때 쉽게 수정할 수 없다고 생각했습니다.
+QA하면서 보았던 유저 친화라는 것이 개발자 입장에서 달갑지 않다는 것을 깨달았으며 WebSocket을 이용하면서 실시간 화면이 어떻게 구동하는지 알게되었고 다른 프로젝트에서도 사용해보고 싶다는 생각이 들었습니다.
+
