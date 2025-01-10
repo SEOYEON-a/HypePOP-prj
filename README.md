@@ -1,6 +1,6 @@
 # 내 취향의 팝업스토어 전시회 찾고 구매까지! HypePop
 
-![readme_mockup2](https://user-images.githubusercontent.com/112460466/210706312-6a44b60d-a42e-4210-b334-9e5983f70fb3.png)
+![HypePop](https://github.com/user-attachments/assets/b4e9d6de-df47-46dc-ac02-bbe2cd5a8281)
 
 
 ## 프로젝트 소개
